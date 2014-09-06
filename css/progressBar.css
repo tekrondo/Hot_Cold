@@ -1,0 +1,11 @@
+.round-pink {
+	border-radius: 10px;
+	background: #e6e5e2;	
+	box-shadow: 0 -1px 1px #c0bfbc inset;
+	
+}
+
+.round-pink div {
+	border-radius: 9px;
+	box-shadow: 0 2px 2px #333;	
+}
