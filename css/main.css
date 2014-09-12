@@ -5,6 +5,7 @@
   opacity:0.5;
   box-shadow: 0 0 1em 0 black;
 }
+<<<<<<< HEAD
 #h2{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 2em;
@@ -20,6 +21,8 @@ legend span{
 	font-size: 1.2em;
     font-weight: bold;
 }
+=======
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 footer{
     width: 100%;
     height: 4.1em;
@@ -29,18 +32,30 @@ footer{
 
 fieldset{
         padding-top: 2em;
+<<<<<<< HEAD
         width: 8em;
+=======
+        width: 10em;
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
         height: 15em;
         border-color: maroon;  
 }
 #form {
+<<<<<<< HEAD
     width: 20em;
+=======
+    max-width: 20em;
+    margin-left: 10em;;
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
     padding: 2em 4em 1em;
     background: #f4f7f8;
     border-radius: 8px;
     box-shadow: 0 0 0.5em 0 blue;
+<<<<<<< HEAD
     margin-left:10%;
    
+=======
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 }
 label{
   font-size:1.5em;
@@ -55,17 +70,27 @@ label{
         
 }
 #progressBar {
+<<<<<<< HEAD
         width: 20em;
+=======
+        width: 400px;
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
         height: 2.5em;
         border: 0.3em solid #111;
         border-radius:0.5em;
         background-color: #393939;
         display:inline-block;       
         box-shadow: 0 0 1em 0 white;
+<<<<<<< HEAD
 }
 #status {
         display:none;
 }
+=======
+        margin-left: 35em;
+}
+ 
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 #meter {
         height: 100%;
         color: #fff;
@@ -73,7 +98,10 @@ label{
         line-height: 2em; /* same as #progressBar height if we want text middle aligned */
         width: 100%;
         background-color: red;
+<<<<<<< HEAD
         border-radius:0.3em;
+=======
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 }
 input[type="number"]{
         width:180%;
@@ -83,7 +111,11 @@ input[type="number"]{
         opacity: 0.5;
         text-align: center;
         position: center;
+<<<<<<< HEAD
         margin-left:20%;
+=======
+        margin-left:10%;
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 }
 input[id="submit"]{
         width:75%;
@@ -115,4 +147,8 @@ input[id="reset"]{
 .round-pink{
     width: 50%;
     background-color: green;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
