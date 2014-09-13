@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 var maxWidth = 320;
-=======
-var maxWidth = 400;
->>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 var maxPercent;
 var secret;
 var oldPercent;
@@ -11,10 +7,7 @@ $("form").submit(doSubmit);
 $("#reset").click(restart);
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 function restart(){
 	secret = Math.floor((Math.random() * 99) + 1);
 	console.log(secret);//for debug purpose only, so the random value can be seen
@@ -28,11 +21,7 @@ function restart(){
 	
 	$("#submit").show();
 	$("#user_guess").val("");
-<<<<<<< HEAD
     $("#status").hide();
-=======
-
->>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 	return false;
 }	
 
@@ -56,7 +45,6 @@ function doSubmit(){
 	var width = getGuess();
 
 	if (width == maxPercent) {
-<<<<<<< HEAD
         document.getElementById("status").innerHTML = "You've burned!";	
 		$("#submit").hide();
         $("#status").show();
@@ -71,18 +59,6 @@ function doSubmit(){
 		} else {
 		document.getElementById("status").innerHTML = "It's Lukewarm";
           $("#status").show("fade");
-=======
-		alert("You've burned!");
-		$("#submit").hide();
-	}
-		else if (width > oldPercent) {
-			alert("It's getting hell hot!");
-		}
-		else if (width < oldPercent){
-			alert("It's Icy!");
-		} else {
-			alert("It's Lukewarm");
->>>>>>> e9aa556ee698d92261de5cc1c5e453da2dc35bf9
 		}
 		oldPercent = width;
 
